@@ -8,8 +8,13 @@ import os, sys
 folder = os.getcwd()
 
 # Аргумент коммандной строки - название csv-файла
+# Для запуска скрипта нужно набрать например: python3 test.py test.csv 
 csv_source = sys.argv[1]
+
+# Количество записей в месяце для пункта 2 задания
 number_of_records = 3
+
+# Диапазон городов для пункта 4 задания
 list_of_cities = ['Rome', 'Kiev']
 
 # Создание соединения
